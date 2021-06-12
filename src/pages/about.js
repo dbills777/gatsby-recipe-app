@@ -1,12 +1,10 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-
+import Layout from "../components/Layout"
 function About() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>This is from the About page</h1>
-    </div>
+    </Layout>
   )
 }
 

@@ -1,3 +1,4 @@
+// setup as a wrapper component to avoid copying to every page that needs the navbar
 import React from "react"
 import { Link } from "gatsby"
 
