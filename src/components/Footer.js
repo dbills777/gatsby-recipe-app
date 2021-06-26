@@ -2,9 +2,12 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Hello from Footer</h1>
-        </div>
+      <footer className="page-footer">
+        <p>
+          &copy; {new Date().getFullYear()} <span>Recipes Application</span>. GitHub {" "}
+          <a href="https://github.com/dbills777/gatsby-recipe-app" target = "blank">Repo</a>
+        </p>
+      </footer>
     )
 }
 
