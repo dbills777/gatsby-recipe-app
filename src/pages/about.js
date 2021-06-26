@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import styled from 'styled-components'
+import styled from "styled-components"
 function About() {
   return (
     <Layout>
@@ -8,9 +8,5 @@ function About() {
     </Layout>
   )
 }
-const Wrapper = styled.section`
-color: red;
-
-`
 
 export default About
